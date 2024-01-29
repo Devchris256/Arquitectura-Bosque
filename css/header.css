@@ -1,0 +1,34 @@
+.header {
+  min-block-size: var(--minheader);
+  padding-block: 2.5rem;
+  box-sizing: border-box;
+  background: url(../img/hero.jpg) no-repeat center/cover;
+}
+
+.header-content {
+  block-size: calc(var(--minheader) - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-slogan {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width:768px) {
+  .header-slogan {
+    align-self: flex-end;
+    align-items: flex-end;
+  }
+}
+
+.header-slogan p {
+  color: var(--white);
+  margin: 0;
+  margin-block: .5rem;
+}
+

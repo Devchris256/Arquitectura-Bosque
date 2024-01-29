@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font: var(--basefont);
+  line-height: 1.5rem;
+}
+
+h1 {
+  font: var(--titleOne);
+  color: var(--white);
+  margin: 0;
+}
+
+@media screen and (min-width:500px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font: var(--titleTwo);
+  color: var(--black);
+}
+
+h3 {
+  font: var(--titleThree);
+  color: var(--back);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

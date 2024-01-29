@@ -1,0 +1,80 @@
+.barra {
+  text-align: center;
+}
+
+@media screen and (min-width:768px) {
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.barra-logo p{
+  font-size: 1.75rem;
+  color: var(--white);
+}
+
+@media screen and (min-width:500px) {
+  .barra-logo p {
+    font-size: 2.25rem;
+  }
+}
+
+.barra-logo span {
+  font-weight: 900;
+}
+
+@media screen and (min-width:768px) {
+  .barra-information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.barra-tel {
+  color: var(--white);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 1rem;
+}
+
+.barra-tel::before {
+  content: ' ';
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
+  background: url(../img/telefono.png) no-repeat center/ cover;
+  display: inline-flex;
+  margin-inline-end: .5rem;
+}
+
+.barra-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+  .barra-nav {
+    flex-direction: row;
+  }
+}
+
+.barra-link {
+  color: var(--white);
+  padding: .25rem;
+  transition: background .2s, color .2s;
+}
+
+.barra-link:hover {
+  background: rgba(255, 255, 255, .5);
+  color: var(--black);
+}
+
+@media screen and (min-width:768px) {
+  .barra-link {
+    padding-inline: .5rem;
+  }
+}
