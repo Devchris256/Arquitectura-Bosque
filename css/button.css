@@ -1,0 +1,15 @@
+.button {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+  /* inline-size: 100%; */
+  padding-inline: 1rem;
+  padding-block: .25rem;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.button:hover {
+  background: var(--gray);
+  color: var(--white);
+}

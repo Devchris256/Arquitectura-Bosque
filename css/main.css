@@ -1,0 +1,50 @@
+@import './button.css';
+@import './grid.css';
+
+.main {
+  margin-block: 3rem;
+}
+
+@media screen and (min-width:700px) {
+  .modelBasic .details {
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+    z-index: 1;
+  }
+
+  .modelBasic-img {
+    grid-column: 1 / -1;
+    grid-row: 1/ -1;
+    justify-self: flex-end;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .modelPremier .details {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    z-index: 1;
+  }
+
+  .modelPremier-img {
+    grid-column: 1 / -1;
+    grid-row: 1/ -1;
+    justify-self: flex-start;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .modelElite .details {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    z-index: 1;
+  }
+
+  .modelElite-img {
+    grid-column: 1 / -1;
+    grid-row: 1/ -1;
+    justify-self: flex-end;
+    align-self: center;
+  }
+}

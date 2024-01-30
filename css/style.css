@@ -4,8 +4,10 @@
 @import './header.css';
 @import './about-us.css';
 @import './details.css';
+@import './main.css';
 
 :root {
+  scroll-behavior: smooth;
   font-size: 16px;
   --fontMain: 'Raleway', sans-serif;
   --white: #FFFFFF;
@@ -14,6 +16,6 @@
   --basefont: 400 1rem/1.5 var(--fontMain);
   --titleOne: 900 1.5rem/1.5 var(--fontMain);
   --titleTwo: 900 1.75rem/1.5 var(--fontMain);
-  --titleThree: 900 3.125rem/1.5 var(--fontMain);
+  --titleThree: 900 1.25rem/1.5 var(--fontMain);
   --minheader: 37.5rem;
 }

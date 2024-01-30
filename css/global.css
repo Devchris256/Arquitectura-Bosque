@@ -37,6 +37,18 @@ h3 {
   color: var(--back);
 }
 
+@media screen and (min-width:451px) {
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  h3 {
+    font-size: 3.125rem;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -45,4 +57,9 @@ h3 {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-inline-size: 100%;
+  vertical-align: bottom;
 }
