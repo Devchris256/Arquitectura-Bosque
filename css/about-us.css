@@ -1,0 +1,32 @@
+.aboutUs {
+  margin-block: 3rem;
+}
+
+.aboutUs-content {
+  background: url(../img/nosotros.jpg) no-repeat bottom center/ auto 50%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media screen and (min-width:451px) {
+  .aboutUs-content {
+    background: url(../img/nosotros.jpg) no-repeat bottom/ auto auto;
+  }
+
+  .aboutUs-content .details {
+    padding: 3.125rem;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .aboutUs-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .aboutUs .details {
+    grid-column: 2/4;
+  }
+}
+
+
+
