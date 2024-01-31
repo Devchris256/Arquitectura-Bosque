@@ -1,5 +1,7 @@
 .wrapper {
   max-inline-size: 75rem;
   padding-inline: 1rem;
-  margin: auto;
+  inline-size: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }

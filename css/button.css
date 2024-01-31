@@ -2,7 +2,6 @@
   background: transparent;
   color: var(--gray);
   border: 1px solid var(--gray);
-  /* inline-size: 100%; */
   padding-inline: 1rem;
   padding-block: .25rem;
   cursor: pointer;

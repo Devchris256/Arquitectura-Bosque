@@ -1,0 +1,14 @@
+.footer {
+  background: url(../img/footer_bg.jpg) no-repeat center/cover;
+  block-size: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.footer-copyright {
+  background: var(--black);
+  color: var(--white);
+  text-align: center;
+  margin-block-start: 1rem;
+}

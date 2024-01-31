@@ -6,6 +6,7 @@
 @import './details.css';
 @import './main.css';
 @import './gallery.css';
+@import './footer.css';
 
 :root {
   scroll-behavior: smooth;
